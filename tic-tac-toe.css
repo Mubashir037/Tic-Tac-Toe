@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cadetblue;
+    text-align: center;
+}
+.game{
+    height: 20vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.box{
+    background-color: #ffffc7;
+    height: 18vh;
+    width: 18vmin;
+    border:3px solid black;
+    font-size: xx-large;
+    color: black;
+}
+.main{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 10%;
+    
+}
+.ok{
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+    border:3px solid burlywood;
+    margin-left: 250px;
+    margin-top: 25px;
+
+}
+.w{
+    margin-left: 250px;
+    margin-top: 25px;
+}
+.n{
+    display: flex;
+    justify-content: center;
+
+}
+.w{
+    display: none;
+}
